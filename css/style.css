@@ -770,7 +770,7 @@ body {
     flex-direction: column;
     margin-bottom: 10px;
 }
-.hero-form-item textarea {
+.hero-form-item-four {
     margin-bottom: 20px;
 }
 
@@ -878,7 +878,8 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--label-color);
-    display: inline-block;
+    display: flex;
+    align-items: center;
     position: relative;
 }
 
