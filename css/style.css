@@ -906,18 +906,6 @@ body {
     position: relative;
 }
 
-.check-border {
-    display: inline-block;
-    width: 16px;
-    height: 15px;
-    border: 2px solid transparent;
-    border-radius: 3px;
-    background-color: transparent;
-    position: absolute;
-    top: 2px;
-    left: 0;
-}
-
 .check-point {
     position: absolute;
     top: 50%;
@@ -925,19 +913,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
 .check-input:checked + .check-icon {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
 }
 
-.check-input:focus ~ .check-border {
-    border-color: var(--accent-color);
-}
-
-.check-input:checked ~ .check-border,
 .check-input:focus + .check-icon {
-    border-color: transparent;
+    border-color: var(--accent-color);
 }
 
 
